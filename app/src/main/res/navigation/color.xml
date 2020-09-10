@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/color"
+    app:startDestination="@id/colorFragment">
+
+    <fragment
+        android:id="@+id/colorFragment"
+        android:name="es.fgd192.lesson193.ColorFragment"
+        android:label="ColorFragment"
+        tools:layout="@layout/fragment_colors"/>
+</navigation>

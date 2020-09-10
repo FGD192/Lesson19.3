@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cities"
+    app:startDestination="@id/cityFragment">
+
+    <fragment
+        android:id="@+id/cityFragment"
+        android:name="es.fgd192.lesson193.CityFragment"
+        android:label="CityFragment"
+        tools:layout="@layout/fragment_city"/>
+    <action
+        android:id="@+id/action_citiesFragment_to_cityFragment"
+        app:destination="@id/cityFragment" />
+    <fragment
+        android:id="@+id/citiesFragment"
+        android:name="es.fgd192.lesson193.CitiesFragment"
+        android:label="CitiesFragment"
+        tools:layout="@layout/fragment_cities">
+        <argument
+            android:name="details"
+            android:defaultValue="@null"
+            app:argType="com.example.lesson19.CitiesData"
+            app:nullable="true" />
+    </fragment>
+</navigation>

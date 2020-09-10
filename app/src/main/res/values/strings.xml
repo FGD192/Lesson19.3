@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Lesson19.3</string>
+    <string name="item_cities">Города</string>
+    <string name="item_colors">Цвета</string>
+    <string name="item_account">Аккаунт</string>
+    <string name="first_fragment">Первый фрагмент</string>
+    <string name="second_fragment">Второй фрагмент</string>
+    <string name="Canberra_title">Камберра</string>
+    <string name="Sydney_title">Сидней</string>
+    <string name="Melbourne_title">Мельбурн</string>
+    <string name="Brisbane_title">Брисбен</string>
+    <string name="NewCastle_title">НьюКасл</string>
+    <string name="Canberra_description">Канберра является крупнейшим городом Австралии, расположенным внутри страны, а не на побережье.
+    </string>
+    <string name="Sydney_description">
+       Сидне́й — самый большой и самый старый город Австралии площадью 12 144,6 км², население которого по состоянию на июнь 2017 года составляло 5 131 326 человек.
+    </string>
+    <string name="Melbourne_description">
+        Ме́льбурн — второй по величине город Австралии после Сиднея, столица штата Виктория, расположившаяся вокруг залива Порт-Филлип. Численность населения с пригородами составляет около 4 246 345 человек (по оценкам на 2013 год).
+    </string>
+    <string name="Brisbane_description">
+        Бри́сбен — город в Австралии. Административный центр штата Квинсленд. Образует муниципальное образование «город Брисбен». Население — около 2 млн человек (2016). В пределах городской агломерации проживает 2,2 млн человек (2013).
+    </string>
+    <string name="NewCastle_description">
+        Ньюка́сл — город в Австралии, в штате Новый Южный Уэльс. Население около 289 тысяч человек (2007), с пригородами — 523,6 тысяч; это второй город штата после Сиднея по количеству жителей.
+    </string>
+    <string name="personal_info">Рыспеков Темир Туголбекович \ тел.: +996 550 28 07 +05 \G-mail: fgd280705@gmail.com</string>
+</resources>
